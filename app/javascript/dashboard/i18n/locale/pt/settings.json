@@ -37,19 +37,19 @@
       },
       "INTERFACE_SECTION": {
         "TITLE": "Interface",
-        "NOTE": "Customize the look and feel of your Chatwoot dashboard.",
+        "NOTE": "Personalizar o aspecto do seu dashboard.",
         "FONT_SIZE": {
-          "TITLE": "Font size",
-          "NOTE": "Adjust the text size across the dashboard based on your preference.",
-          "UPDATE_SUCCESS": "Your font settings have been updated successfully",
-          "UPDATE_ERROR": "There is an error while updating the font settings, please try again",
+          "TITLE": "Tamanho de letra",
+          "NOTE": "Ajuste o tamanho do texto em todo o painel de controlo conforme a sua preferência.",
+          "UPDATE_SUCCESS": "As definições de letra foram atualizadas com sucesso",
+          "UPDATE_ERROR": "Ocorreu um erro ao atualizar as definições de letra, por favor tente novamente",
           "OPTIONS": {
-            "SMALLER": "Smaller",
-            "SMALL": "Small",
+            "SMALLER": "Mais pequeno",
+            "SMALL": "Pequeno",
             "DEFAULT": "Padrão",
-            "LARGE": "Large",
-            "LARGER": "Larger",
-            "EXTRA_LARGE": "Extra Large"
+            "LARGE": "Grande",
+            "LARGER": "Maior",
+            "EXTRA_LARGE": "Extra grande"
           }
         }
       },
@@ -221,12 +221,12 @@
     "SWITCH_ACCOUNT": "Switch account",
     "CONTACT_SUPPORT": "Contact support",
     "SELECTOR_SUBTITLE": "Escolha uma conta da lista a seguir",
-    "PROFILE_SETTINGS": "Profile settings",
+    "PROFILE_SETTINGS": "Editar perfil",
     "KEYBOARD_SHORTCUTS": "Keyboard shortcuts",
     "APPEARANCE": "Change appearance",
     "SUPER_ADMIN_CONSOLE": "SuperAdmin console",
     "DOCS": "Read documentation",
-    "LOGOUT": "Log out"
+    "LOGOUT": "Sair"
   },
   "APP_GLOBAL": {
     "TRIAL_MESSAGE": "dias de teste restantes.",
@@ -278,12 +278,12 @@
     "SWITCH": "Alternar",
     "INBOX_VIEW": "Visualização da Caixa de entrada",
     "CONVERSATIONS": "Conversas",
-    "INBOX": "My Inbox",
+    "INBOX": "Minhas conversas",
     "ALL_CONVERSATIONS": "Todas as conversas",
     "MENTIONED_CONVERSATIONS": "Menções",
     "PARTICIPATING_CONVERSATIONS": "Participando",
     "UNATTENDED_CONVERSATIONS": "Por responder",
-    "REPORTS": "relatórios",
+    "REPORTS": "Relatórios",
     "SETTINGS": "Configurações",
     "CONTACTS": "Contactos",
     "ACTIVE": "Ativa",
