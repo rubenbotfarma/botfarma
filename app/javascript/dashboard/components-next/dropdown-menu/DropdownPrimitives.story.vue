@@ -12,24 +12,9 @@ const currentUserAutoOffline = ref(false);
 
 const menuItems = ref([
   {
-    label: 'Contact Support',
-    icon: 'i-lucide-life-buoy',
-    click: () => console.log('Contact Support'),
-  },
-  {
-    label: 'Keyboard Shortcuts',
-    icon: 'i-lucide-keyboard',
-    click: () => console.log('Keyboard Shortcuts'),
-  },
-  {
     label: 'Profile Settings',
     icon: 'i-lucide-user-pen',
     click: () => console.log('Profile Settings'),
-  },
-  {
-    label: 'Change Appearance',
-    icon: 'i-lucide-swatch-book',
-    click: () => console.log('Change Appearance'),
   },
   {
     label: 'Open SuperAdmin',

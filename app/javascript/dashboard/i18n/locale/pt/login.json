@@ -1,9 +1,9 @@
 {
   "LOGIN": {
-    "TITLE": "Entrar no Chatwoot",
+    "TITLE": "",
     "EMAIL": {
       "LABEL": "E-mail",
-      "PLACEHOLDER": "Empresa{'@'}suaempresa.com.br",
+      "PLACEHOLDER": "Empresa{'@'}suaempresa.com",
       "ERROR": "Por favor, insira um endereço de e-mail válido"
     },
     "PASSWORD": {
@@ -12,7 +12,7 @@
     },
     "API": {
       "SUCCESS_MESSAGE": "Login bem-sucedido",
-      "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot. Por favor, tente novamente.",
+      "ERROR_MESSAGE": "Não foi possível conectar ao servidor. Por favor, tente novamente.",
       "UNAUTH": "E-mail ou palavra-passe incorretos. Por favor, tente novamente."
     },
     "OAUTH": {
@@ -20,7 +20,7 @@
       "BUSINESS_ACCOUNTS_ONLY": "Por favor, use o endereço de e-mail da empresa para iniciar sessão",
       "NO_ACCOUNT_FOUND": "Não conseguimos encontrar uma conta com o seu endereço de e-mail."
     },
-    "FORGOT_PASSWORD": "Esqueceu-se da sua palavra-passe?",
+    "FORGOT_PASSWORD": "",
     "CREATE_NEW_ACCOUNT": "Criar nova conta",
     "SUBMIT": "Iniciar sessão"
   }

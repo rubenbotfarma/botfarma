@@ -226,15 +226,7 @@ export default {
         @change="updateFontSize"
       />
     </FormSection>
-    <FormSection
-      :title="$t('PROFILE_SETTINGS.FORM.MESSAGE_SIGNATURE_SECTION.TITLE')"
-      :description="$t('PROFILE_SETTINGS.FORM.MESSAGE_SIGNATURE_SECTION.NOTE')"
-    >
-      <MessageSignature
-        :message-signature="messageSignature"
-        @update-signature="updateSignature"
-      />
-    </FormSection>
+
     <FormSection
       :title="$t('PROFILE_SETTINGS.FORM.SEND_MESSAGE.TITLE')"
       :description="$t('PROFILE_SETTINGS.FORM.SEND_MESSAGE.NOTE')"
@@ -264,27 +256,20 @@ export default {
         </button>
       </div>
     </FormSection>
+    
+    <Policy :permissions="notificationPermissions">
+      <FormSection :title="$t('PROFILE_SETTINGS.FORM.NOTIFICATIONS.TITLE')">
+        <NotificationPreferences />
+      </FormSection>
+    </Policy>
+    
     <FormSection
       v-if="!globalConfig.disableUserProfileUpdate"
       :title="$t('PROFILE_SETTINGS.FORM.PASSWORD_SECTION.TITLE')"
     >
       <ChangePassword />
     </FormSection>
-    <Policy :permissions="audioNotificationPermissions">
-      <FormSection
-        :title="$t('PROFILE_SETTINGS.FORM.AUDIO_NOTIFICATIONS_SECTION.TITLE')"
-        :description="
-          $t('PROFILE_SETTINGS.FORM.AUDIO_NOTIFICATIONS_SECTION.NOTE')
-        "
-      >
-        <AudioNotifications />
-      </FormSection>
-    </Policy>
-    <Policy :permissions="notificationPermissions">
-      <FormSection :title="$t('PROFILE_SETTINGS.FORM.NOTIFICATIONS.TITLE')">
-        <NotificationPreferences />
-      </FormSection>
-    </Policy>
+    
     <FormSection
       :title="$t('PROFILE_SETTINGS.FORM.ACCESS_TOKEN.TITLE')"
       :description="

@@ -76,53 +76,9 @@ function updateAutoOffline(autoOffline) {
     <div class="grid gap-0">
       <DropdownItem preserve-open>
         <div class="flex-grow flex items-center gap-1">
-          {{ $t('SIDEBAR.SET_YOUR_AVAILABILITY') }}
+          Definições
         </div>
-        <DropdownContainer>
-          <template #trigger="{ toggle }">
-            <Button
-              size="sm"
-              color="slate"
-              variant="faded"
-              class="min-w-[96px]"
-              icon="i-lucide-chevron-down"
-              trailing-icon
-              @click="toggle"
-            >
-              <div class="flex gap-1 items-center flex-grow text-sm">
-                <div class="p-1 flex-shrink-0">
-                  <div class="size-2 rounded-sm" :class="activeStatus.color" />
-                </div>
-                <span>{{ activeStatus.label }}</span>
-              </div>
-            </Button>
-          </template>
-          <DropdownBody class="min-w-32 z-20">
-            <DropdownItem
-              v-for="status in availabilityStatuses"
-              :key="status.value"
-              :label="status.label"
-              :icon="status.icon"
-              class="cursor-pointer"
-              @click="changeAvailabilityStatus(status.value)"
-            />
-          </DropdownBody>
-        </DropdownContainer>
-      </DropdownItem>
-      <DropdownItem>
-        <div class="flex-grow flex items-center gap-1">
-          {{ $t('SIDEBAR.SET_AUTO_OFFLINE.TEXT') }}
-          <Icon
-            v-tooltip.top="$t('SIDEBAR.SET_AUTO_OFFLINE.INFO_SHORT')"
-            icon="i-lucide-info"
-            class="size-4 text-n-slate-10"
-          />
-        </div>
-        <woot-switch
-          class="flex-shrink-0"
-          :model-value="currentUserAutoOffline"
-          @input="updateAutoOffline"
-        />
+
       </DropdownItem>
     </div>
   </DropdownSection>
